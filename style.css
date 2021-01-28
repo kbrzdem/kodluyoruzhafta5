@@ -1,0 +1,54 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    font-family:  serif;
+}    
+.tablo{
+    padding: 30px 0px 30px 40px;
+    border-radius: 10px;
+    background-color: rgba(118, 73, 243, 0.986);
+    margin-right: 300px;
+    margin-left: 150px;
+}
+
+
+.sıra:disabled{
+    background-color: rgba(195, 189, 197, 0.986);
+
+}
+
+.sıra{
+    background-color: rgb(227, 224, 231);
+    border: none;
+    border-radius: 3px;
+}
+
+.tablo td input:hover{
+    cursor: pointer;
+}
+
+.isim{
+    background-color: rgb(231, 195, 241);
+    border: none;
+    border-radius: 3px;
+}
+
+
+.onay{
+    margin-left: 50px;
+}
+
+.btn{
+    
+    border-radius: 3px;
+    border: 1px solid #d679df;
+    background-color: rgb(44, 201, 169);
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    width: 20%;
+    margin-left: 195px;
+    margin-top: 30px;
+    
+}
